@@ -1,0 +1,14 @@
+# Mengatur line endings secara otomatis
+* text=auto
+
+# Gunakan LF sebagai line ending untuk semua file JavaScript
+*.js text eol=lf
+
+# Gunakan LF untuk file HTML dan CSS
+*.html text eol=lf
+*.css text eol=lf
+
+# Abaikan binary files dan tetap pertahankan line endings-nya
+*.png binary
+*.jpg binary
+*.gif binary
